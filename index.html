@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
+      <link rel="stylesheet" href="assets/css/style.css"/>
+      <script defer src="assets/javascript/script.js"></script>
+      <title>Work Day Scheduler</title>
+   </head>
+   <body>
+      <!--header to hold date time clear button and h1-->
+      <header class="jumbotron">
+         <h1 class="display-3">Work Day Planner</h1>
+         <p id="currentDay"></p>
+         <button class="btn btn-info" id="clearBtn">Clear</button>
+      </header>
+      <!--beginning of container that will hold rows and cols that will hold save buttons and text areass-->
+      <section class="container">
+         <div class='row time-block'>
+            <div class="hour col-lg-2">
+               <strong>9am</strong> 
+            </div>
+            <textarea class="col-lg-9 description text" data-hour='9' id='text9'></textarea>
+            <button class="col-lg-1 fas fa-save btn-block btn-info saveBtn" id="btn9"></button>
+         </div>
+         <div class='row time-block'>
+            <div class="hour col-lg-2">
+               <strong>10am</strong>
+            </div>
+            <textarea class="col-lg-9 description text" data-hour='10' id="text10"></textarea>
+            <button class="col-lg-1 fas fa-save btn-block btn-info saveBtn" id="btn10"></button>
+         </div>
+         <div class='row time-block'>
+            <div class="hour col-lg-2">
+               <strong>11am</strong>
+            </div>
+            <textarea class="col-lg-9 description text" data-hour='11' id="text11"></textarea>
+            <button class="col-lg-1 fas fa-save btn-block btn-info saveBtn" id="btn11"></button>
+         </div>
+         <div class='row time-block'>
+            <div class="hour col-lg-2">
+               <strong>12pm</strong>
+            </div>
+            <textarea class="col-lg-9 description text" data-hour='12' id="text12"></textarea>
+            <button class="col-lg-1 fas fa-save btn-block btn-info saveBtn" id="btn12"></button>
+         </div>
+         <div class='row time-block'>
+            <div class="hour col-lg-2">
+               <strong>1pm</strong>
+            </div>
+            <textarea class="col-lg-9 description text" data-hour='13' id="text1"></textarea>
+            <button class="col-lg-1 fas fa-save btn-block btn-info saveBtn" id="btn1"></button>
+         </div>
+         <div class='row time-block'>
+            <div class="hour col-lg-2">
+               <strong>2pm</strong>
+            </div>
+            <textarea class="col-lg-9 description text" data-hour='14' id="text2"></textarea>
+            <button class="col-lg-1 fas fa-save btn-block btn-info saveBtn" id="btn2"></button>
+         </div>
+         <div class='row time-block'>
+            <div class="hour col-lg-2">
+               <strong>3pm</strong>
+            </div>
+            <textarea class="col-lg-9 description text" data-hour='15' id="text3"></textarea>
+            <button class="col-lg-1 fas fa-save btn-block btn-info saveBtn" id="btn3"></button>
+         </div>
+         <div class='row time-block'>
+            <div class="hour col-lg-2">
+               <strong>4pm</strong>
+            </div>
+            <textarea class="col-lg-9 description text" data-hour='16' id="text4"></textarea>
+            <button class="col-lg-1 fas fa-save btn-block btn-info saveBtn" id="btn4"></button>
+         </div>
+         <div class='row time-block'>
+            <div class="hour col-lg-2">
+               <strong>5pm</strong>
+            </div>
+            <textarea class="col-lg-9 description text " data-hour='17' id="text5"></textarea>
+            <button class="col-lg-1 fas fa-save btn-block btn-info saveBtn" id="btn5"></button>
+         </div>
+         <hr>
+      </section>
+      <footer>
+         <div class="text-center">made by @SethSkinner</div>
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+   </body>
+</html>
