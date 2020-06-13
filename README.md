@@ -5,7 +5,7 @@ it will tell them whether or not the scheduled event is in the past present and 
 switching colors to indicate this. you will also be able to clear it with a clear button 
 and it will display the current day and time at the top of the application.
 
-steps:
+steps-
 
 1)created html page with individuals spaces for each timeslot
 2)created places for date and time
